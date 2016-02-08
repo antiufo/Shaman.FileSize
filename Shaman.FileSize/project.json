@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0-beta-4979",
+  "description": "Byte count/formatted file size parser and formatter",
+  "tags": [
+    "size",
+    "bytes",
+    "length",
+    "formatter",
+    "KB",
+    "MB",
+    "GB"
+  ],
+  "authors": [
+    "Andrea Martinelli"
+  ],
+  "iconUrl": "http://shaman.io/images/shaman-nuget-icon.png",
+  "projectUrl": "http://shaman.io/",
+  "compilationOptions": {
+    "keyFile": "ShamanOpenSourceKey.snk",
+    "define": [
+      "SMALL_LIB_AWDEE"
+    ],
+    "allowUnsafe": true
+  },
+  "compile": [],
+  "frameworks": {
+    "net45+win+wpa81": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.0.0",
+        "System.Runtime.Extensions": "4.0.0.0",
+        "System.Globalization": "4.0.0.0"
+      }
+    },
+    "net35": {}
+  }
+}
