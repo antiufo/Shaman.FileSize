@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-beta-4979",
+  "version": "1.0.1.1",
   "description": "Byte count/formatted file size parser and formatter",
   "tags": [
     "size",
@@ -24,11 +24,18 @@
   },
   "compile": [],
   "frameworks": {
-    "net45+win+wpa81": {
+    "net45": {
       "frameworkAssemblies": {
         "System.Runtime": "4.0.0.0",
         "System.Runtime.Extensions": "4.0.0.0",
         "System.Globalization": "4.0.0.0"
+      }
+    },
+    "netstandard1.3": {
+      "dependencies": {
+        "System.Runtime": "4.1",
+        "System.Runtime.Extensions": "4.1",
+        "System.Globalization": "4.0.11"
       }
     },
     "net35": {}
